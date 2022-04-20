@@ -1,0 +1,265 @@
+/* ADAPTAR A TABLET */
+
+
+@media screen and (max-width: 768px) {
+
+    .grid__container {
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        grid-template-areas: 
+        "header header header"
+        "main main main"
+        "footer footer footer"
+        ;
+    }
+
+    .header__class{
+        grid-area: header;
+    }
+
+    .main__class{
+        grid-area: main;
+    }
+
+    .footer__contenedor{
+        grid-area: footer;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .portafolio__contenedor{
+        width: 95%;
+        max-width: 1100px;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        display: grid;
+        grid-template-columns: repeat (3, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 15px;
+        grid-template-areas: 
+        "gale1 gale3 gale4"
+        "gale2 gale3 gale4"
+        "gale5 gale6 gale6"
+        "gale5 gale7 gale8"
+        "gale9 gale9 gale10"
+        "gale9 gale9 gale10"
+        ;
+        padding: 25px;
+    }
+    
+    
+    .gale1{
+        grid-area: gale1;
+    }
+    .gale2{
+        grid-area: gale2;
+    }
+    .gale3{
+        grid-area: gale3;
+    }
+    .gale4{
+        grid-area: gale4;
+    }
+    .gale5{
+        grid-area: gale5;
+    }
+    .gale6{
+        grid-area: gale6;
+    }
+    .gale7{
+        grid-area: gale7;
+    }
+    .gale8{
+        grid-area: gale8;
+    }
+    .gale9{
+        grid-area: gale9;
+    }
+    .gale10{
+        grid-area: gale10;
+    }
+    
+    .portafolio__contenedor{
+        img{
+            border-radius: 15px;
+            object-fit: cover;
+            }
+                figure{
+                    width: 100%;
+                    height: 100%;
+                }
+        }
+}
+
+
+
+
+
+
+    /* ADAPTAR A CELULAR */
+
+
+@media screen and (max-width: 480px) {
+
+
+    
+    body{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer"
+        ;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main {
+        flex-wrap: wrap;
+    }
+
+    .footer__contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo__titulo {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .titulo__subtitulo {
+        font-size: 10px;
+    }
+
+
+.galeria__contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 0.5fr);
+    grid-template-areas:
+    "porta1"
+    "porta2"
+    "porta3"
+    "porta4"
+    ;
+}
+
+    .porta1{
+        grid-area: porta1;
+    }
+    
+    .porta2{
+        grid-area: porta2;
+    }
+    
+    .porta3{
+        grid-area: porta3;
+    }
+    
+    .porta4{
+        grid-area: porta4;
+    }
+
+    .porta1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.servicios__textos{
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: white;
+}
+
+
+.parrafo__contenedor h2{
+
+    font-size: 16px;
+}
+
+
+.marketing__digital h2{
+    font-size: 15px;
+}
+.dise__grafico h2{
+    font-size: 15px;
+}
+.dise__web h2{
+    font-size: 15px;
+}
+.produ__av h2{
+    font-size: 15px;
+}
+
+
+.portafolio__contenedor{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat (1, 0.5fr);
+    grid-template-rows: repeat(10, 0.2fr);
+    gap: 10px;
+    grid-template-areas: 
+    "gale1"
+    "gale2"
+    "gale3"
+    "gale4"
+    "gale5"
+    "gale6"
+    "gale7"
+    "gale8"
+    "gale9"
+    "gale10"
+    ;
+}
+
+
+.gale1{
+    grid-area: gale1;
+}
+.gale2{
+    grid-area: gale2;
+}
+.gale3{
+    grid-area: gale3;
+}
+.gale4{
+    grid-area: gale4;
+}
+.gale5{
+    grid-area: gale5;
+}
+.gale6{
+    grid-area: gale6;
+}
+.gale7{
+    grid-area: gale7;
+}
+.gale8{
+    grid-area: gale8;
+}
+.gale9{
+    grid-area: gale9;
+}
+.gale10{
+    grid-area: gale10;
+}
+}

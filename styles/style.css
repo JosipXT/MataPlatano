@@ -4,17 +4,32 @@
     box-sizing: border-box;
 }
 
-header{
-    /* background-image: url(../images/barra-menu-nav.png); */
-    /* background-repeat: no-repeat;
+/* header{
+    background-image: url(../images/barra-menu-nav.png);
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; */
+    background-size: cover;
     font-family: TextoMenuNav, sans-serif;
-    /* display: flex;
+    display: flex;
     justify-content: flex-end;
-    align-items: center; */
-    /* padding: 5px 10px; */
+    align-items: center;
+    padding: 5px 10px;
+} */
+
+.container-fluid{
+    background-image: url(../images/barra-menu-nav.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: TextoMenuNav, sans-serif;
 }
+
+.container-fluid ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 
 html{
 font-size: 62.5%;
@@ -80,6 +95,18 @@ ul li a{
 }
 
 button{
+    background-color: #26bf38;
+    padding: 20px;
+    margin: 50px;
+    font-family: Botones, sans-serif;
+    font-size: large;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary{
     background-color: #26bf38;
     padding: 20px;
     margin: 50px;

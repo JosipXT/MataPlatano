@@ -1,0 +1,226 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+// @import "variables";
+@import "header";
+@import "footer";
+@import "nosotros";
+@import "servicios";
+@import "portafolio";
+@import "contacto";
+@import "media";
+
+// body{
+//     text-align: center;
+// }
+
+html {
+    font-size: 62.5%;
+}
+
+p {
+    font-family: Parrafos, sans-serif;
+}
+
+h1 {
+    font-family: TitularLogo, sans-serif;
+}
+
+h2 {
+    font-family: Subtitulos, sans-serif;
+}
+
+h3 {
+    font-family: SubtitularLogo, sans-serif;
+}
+
+ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+button {
+    background-color: #26bf38;
+    padding: 20px;
+    margin: 50px;
+    font-family: Botones, sans-serif;
+    font-size: large;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+        &:hover{
+            transform: scale(1.2);
+        }
+}
+
+img{
+    max-width: 100%;
+}
+
+
+@font-face {
+    font-family: TitularLogo;
+    src: url("../font/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+}
+
+@font-face {
+    font-family: SubtitularLogo;
+    src: url("../font/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: TextoMenuNav;
+    src: url("../font/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Subtitulos;
+    src: url("../font/Montserrat/static/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: Botones;
+    src: url("../font/Montserrat/static/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: Parrafos;
+    src: url("../font/Montserrat/static/Montserrat-Light.ttf");
+}
+
+
+
+.galeria__contenedor{
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    grid-template-areas: 
+    "porta1 porta3 porta4"
+    "porta2 porta3 porta4"
+    ;
+    padding: 50px;
+}
+
+.porta1{
+    grid-area: porta1;
+    img{
+        border-radius: 20px;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }    
+}
+
+.porta2{
+    grid-area: porta2;
+    img{
+        border-radius: 20px;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }  
+}
+
+.porta3{
+    grid-area: porta3;
+    img{
+        border-radius: 20px;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }  
+}
+
+.porta4{
+    grid-area: porta4;
+    img{
+        border-radius: 20px;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }  
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.titulo__contenedor{
+    background-image: url(../images/1_portada.jpg);
+    color: white;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+}
+
+.titulo__titulo{
+    text-align: center;
+    font-size: 50px;
+}
+
+.titulo__subtitulo{
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: SubtitularLogo, sans-serif;
+    text-align: center;
+}
+
+.servicios__contenedor{
+    background-image: url(../images/servicios-bg.png);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.servicios__textos{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.nosotros__contenedor h2{
+    font-size: 30px;
+}
+
+.mb-2{
+    margin: 20px;
+}
+
+.contacto__contenedor{
+    section{
+        padding: 25px;
+    } 
+    p{
+        font-size: 18px;
+    }
+    label{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 35px;
+    }
+}
+
+.grid__container{
+    text-align: center;
+}
+

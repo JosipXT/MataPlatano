@@ -1,0 +1,22 @@
+.footer__contenedor{
+    background-image: url(../images/plantas-footage.png);
+    background-size: cover;
+    padding-top: 350px;
+    text-align: center;
+}
+
+
+.footer__lista li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: medium;
+    font-family: TextoMenuNav, sans-serif;
+}
+
+.footer__cierre{
+    font-size: medium;
+    font-family: TextoMenuNav, sans-serif;
+    color: white;
+    padding: 50px;
+}

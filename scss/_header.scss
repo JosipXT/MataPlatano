@@ -1,0 +1,25 @@
+.container-fluid{
+    background-image: url(../images/barra-menu-nav.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: TextoMenuNav, sans-serif;
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+.header__menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    a{
+        transition: all 0.3s ease 0s;
+        &:hover {
+            color: greenyellow;
+        }
+    }
+}
+
