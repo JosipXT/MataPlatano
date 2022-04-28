@@ -3,6 +3,47 @@
   padding: 0%;
   box-sizing: border-box; }
 
+.btn--facebook {
+  background-color: #253cba; }
+
+.btn--instagram {
+  background-color: #e350b2; }
+
+.btn--linkedin {
+  background-color: #2b63b1; }
+
+.servicios__textos {
+  background-image: url(../images/amarilla/servicios-bg_amarilla.jpg);
+  text-align: center;
+  padding: 1rem;
+  font-size: 35px; }
+
+.boton, .boton--aceptar, .boton--cancelar {
+  background-color: #26bf38;
+  padding: 20px;
+  margin: 50px;
+  font-family: Botones, sans-serif;
+  font-size: large;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer; }
+  .boton:hover, .boton--aceptar:hover, .boton--cancelar:hover {
+    transform: scale(1.2); }
+
+.boton--aceptar {
+  background-color: blue;
+  color: yellow; }
+
+.boton--cancelar {
+  background-color: red;
+  color: yellow; }
+
+.parrafo__nosotros {
+  height: 450px;
+  width: 600px;
+  text-align: center; }
+
 .container-fluid {
   background-image: url(../images/barra-menu-nav.png);
   background-repeat: no-repeat;
@@ -55,7 +96,13 @@ video {
   align-items: center;
   text-align: center; }
   .parrafo__contenedor h2 {
-    font-size: 30px; }
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  .parrafo__contenedor p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: medium; }
 
 .parrafo__nosotros h3 {
   font-size: 15px; }

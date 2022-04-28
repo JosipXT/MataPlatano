@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-// @import "variables";
+@import "variables";
 @import "header";
 @import "footer";
 @import "nosotros";
@@ -13,9 +13,6 @@
 @import "contacto";
 @import "media";
 
-// body{
-//     text-align: center;
-// }
 
 html {
     font-size: 62.5%;

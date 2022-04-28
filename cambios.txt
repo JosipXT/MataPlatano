@@ -1,0 +1,14 @@
+1 - Se agregaron palabras claves a las diferentes paginas para mejorar el SEO.
+2 - Se agregaron los titulos correspondientes a cada pagina. 
+3 - Se agregaron las descripciones del sitio
+4 - Se elimino la implementacion de <br> para crear espacios.
+5 - Mi pagina cuneta con la barra de navegacion conectada, donde por medio del logo se va a inicio, y por el menu cuenta con el acceso a todas las paginas.
+6 - Se agregaron los ALT a las imagenes faltantes.
+7 - Agregue un mapa para las redes sociales, dentro de las variables del SCSS. Lo hice solo en el Index, porque es algo que no pienso mantener para le sitio.
+8 - Agregue un map-get a la clase de .servicios__textos, para probar, pero no es algo que planee mantener.
+9 - Puse el Extend en codigo, pero no lo aplique como tal al sitio web, procedere a implementarlo para cambiar la forma en que desarrolle los botones.
+10 - le agregue un mixin a la clase .parrafo__nosotros de la pagina Nosotros, la parte del parrafo, para disminuir la anchura del texto, pero no he logrado que se mantenga centrado dentro de la web.
+
+
+
+
