@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-@import "variables";
+// @import "variables";
 @import "header";
 @import "footer";
 @import "nosotros";
@@ -90,8 +90,6 @@ img{
     font-family: Parrafos;
     src: url("../font/Montserrat/static/Montserrat-Light.ttf");
 }
-
-
 
 .galeria__contenedor{
     display: grid;

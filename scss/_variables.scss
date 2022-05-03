@@ -1,36 +1,3 @@
-$colorPrincipal: green;
-
-$colorSecundario: yellow;
-
-// MAP
-$redes: (
-    facebook: rgb(37, 60, 186),
-    instagram: rgb(227, 80, 178),
-    linkedin: rgb(43, 99, 177)
-);
-
-@each $red, $color in $redes {
-    .btn--#{$red} {
-        background-color: $color;
-    }
-}
-
-// MAP GET
-
-$estilos: (
-    background-image: url(../images/amarilla/servicios-bg_amarilla.jpg),
-    centro: center,
-    tFuente: 35px,
-    1rem: 1rem
-);
-
-.servicios__textos {
-    background-image: map-get($estilos, background-image);
-    text-align: map-get($estilos, centro);
-    padding: map-get($estilos, 1rem);
-    font-size: map-get($estilos, tFuente);
-}
-
 // EXTEND
 
 .boton{
@@ -42,6 +9,7 @@ $estilos: (
     border: none;
     border-radius: 20px;
     color: white;
+    text-decoration: none;
     cursor: pointer;
         &:hover{
             transform: scale(1.2);
