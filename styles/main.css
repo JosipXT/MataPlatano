@@ -337,6 +337,8 @@ ul li a {
   text-decoration: none;
   color: white;
   font-size: medium; }
+  ul li a:hover {
+    color: #feb164; }
 
 button {
   background-color: #26bf38;

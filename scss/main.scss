@@ -39,6 +39,9 @@ ul li a {
     text-decoration: none;
     color: white;
     font-size: medium;
+    &:hover{
+        color: rgb(254, 177, 100);
+    }
 }
 
 button {
